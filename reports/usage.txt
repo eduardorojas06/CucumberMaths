@@ -1,0 +1,30 @@
+┌────────────────────────────────────────────────────┬──────────┬────────────────────────────────────────────────────────────────────────────────────┐
+│ Pattern / Text                                     │ Duration │ Location                                                                           │
+├────────────────────────────────────────────────────┼──────────┼────────────────────────────────────────────────────────────────────────────────────┤
+│ I have {int} {string}                              │ 0.63ms   │ file:\C:\Users\eduar\Desktop\CucumberMaths\features\stepDefinition\vegetable.js:11 │
+│   I have 5 "cucumbers"                             │ 2.30ms   │ features\vegetable.feature:4                                                       │
+│   I have 8 "cucumbers"                             │ 0.31ms   │ features\vegetable.feature:20                                                      │
+│   I have 5 "carrots"                               │ 0.23ms   │ features\vegetable.feature:21                                                      │
+│   I have 10 "carrots"                              │ 0.17ms   │ features\vegetable.feature:10                                                      │
+│   I have 8 "carrots"                               │ 0.15ms   │ features\vegetable.feature:10                                                      │
+├────────────────────────────────────────────────────┼──────────┼────────────────────────────────────────────────────────────────────────────────────┤
+│ I make a salad with                                │ 0.33ms   │ file:\C:\Users\eduar\Desktop\CucumberMaths\features\stepDefinition\vegetable.js:30 │
+│   I make a salad with                              │ 0.33ms   │ features\vegetable.feature:22                                                      │
+├────────────────────────────────────────────────────┼──────────┼────────────────────────────────────────────────────────────────────────────────────┤
+│ I should have {int} {string}                       │ 0.29ms   │ file:\C:\Users\eduar\Desktop\CucumberMaths\features\stepDefinition\vegetable.js:53 │
+│   I should have 1 "cucumbers"                      │ 0.66ms   │ features\vegetable.feature:6                                                       │
+│   I should have 5 "cucumbers"                      │ 0.14ms   │ features\vegetable.feature:26                                                      │
+│   I should have 3 "carrots"                        │ 0.09ms   │ features\vegetable.feature:27                                                      │
+├────────────────────────────────────────────────────┼──────────┼────────────────────────────────────────────────────────────────────────────────────┤
+│ I eat {int} {string}                               │ 0.20ms   │ file:\C:\Users\eduar\Desktop\CucumberMaths\features\stepDefinition\vegetable.js:21 │
+│   I eat 4 "cucumbers"                              │ 0.32ms   │ features\vegetable.feature:5                                                       │
+│   I eat 5 "carrots"                                │ 0.16ms   │ features\vegetable.feature:11                                                      │
+│   I eat 12 "carrots"                               │ 0.11ms   │ features\vegetable.feature:11                                                      │
+├────────────────────────────────────────────────────┼──────────┼────────────────────────────────────────────────────────────────────────────────────┤
+│ The result should be {string}                      │ 0.17ms   │ file:\C:\Users\eduar\Desktop\CucumberMaths\features\stepDefinition\vegetable.js:43 │
+│   The result should be "3"                         │ 0.18ms   │ features\vegetable.feature:12                                                      │
+│   The result should be "Not enough carrots to eat" │ 0.15ms   │ features\vegetable.feature:12                                                      │
+├────────────────────────────────────────────────────┼──────────┼────────────────────────────────────────────────────────────────────────────────────┤
+│ I should have {int} salad                          │ 0.12ms   │ file:\C:\Users\eduar\Desktop\CucumberMaths\features\stepDefinition\vegetable.js:62 │
+│   I should have 1 salad                            │ 0.12ms   │ features\vegetable.feature:28                                                      │
+└────────────────────────────────────────────────────┴──────────┴────────────────────────────────────────────────────────────────────────────────────┘

@@ -1,0 +1,275 @@
+[
+  {
+    "description": "",
+    "elements": [
+      {
+        "description": "",
+        "id": "cucumber-mathematics;let’s-eat-cucumbers!",
+        "keyword": "Scenario",
+        "line": 3,
+        "name": "Let’s eat cucumbers!",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "I have 5 \"cucumbers\"",
+            "match": {
+              "location": "file:\\C:\\Users\\eduar\\Desktop\\CucumberMaths\\features\\stepDefinition\\vegetable.js:11"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2298900
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 5,
+            "name": "I eat 4 \"cucumbers\"",
+            "match": {
+              "location": "file:\\C:\\Users\\eduar\\Desktop\\CucumberMaths\\features\\stepDefinition\\vegetable.js:21"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 324500
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 6,
+            "name": "I should have 1 \"cucumbers\"",
+            "match": {
+              "location": "file:\\C:\\Users\\eduar\\Desktop\\CucumberMaths\\features\\stepDefinition\\vegetable.js:53"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 655899
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "cucumber-mathematics;let’s-eat-carrots!",
+        "keyword": "Scenario Outline",
+        "line": 15,
+        "name": "Let’s eat carrots!",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 10,
+            "name": "I have 10 \"carrots\"",
+            "match": {
+              "location": "file:\\C:\\Users\\eduar\\Desktop\\CucumberMaths\\features\\stepDefinition\\vegetable.js:11"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 174099
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 11,
+            "name": "I eat 12 \"carrots\"",
+            "match": {
+              "location": "file:\\C:\\Users\\eduar\\Desktop\\CucumberMaths\\features\\stepDefinition\\vegetable.js:21"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 110299
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 12,
+            "name": "The result should be \"Not enough carrots to eat\"",
+            "match": {
+              "location": "file:\\C:\\Users\\eduar\\Desktop\\CucumberMaths\\features\\stepDefinition\\vegetable.js:43"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 147699
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "cucumber-mathematics;let’s-eat-carrots!",
+        "keyword": "Scenario Outline",
+        "line": 16,
+        "name": "Let’s eat carrots!",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 10,
+            "name": "I have 8 \"carrots\"",
+            "match": {
+              "location": "file:\\C:\\Users\\eduar\\Desktop\\CucumberMaths\\features\\stepDefinition\\vegetable.js:11"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 153899
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 11,
+            "name": "I eat 5 \"carrots\"",
+            "match": {
+              "location": "file:\\C:\\Users\\eduar\\Desktop\\CucumberMaths\\features\\stepDefinition\\vegetable.js:21"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 156299
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 12,
+            "name": "The result should be \"3\"",
+            "match": {
+              "location": "file:\\C:\\Users\\eduar\\Desktop\\CucumberMaths\\features\\stepDefinition\\vegetable.js:43"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 184399
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "cucumber-mathematics;let’s-make-a-salad!",
+        "keyword": "Scenario",
+        "line": 19,
+        "name": "Let’s make a salad!",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 20,
+            "name": "I have 8 \"cucumbers\"",
+            "match": {
+              "location": "file:\\C:\\Users\\eduar\\Desktop\\CucumberMaths\\features\\stepDefinition\\vegetable.js:11"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 310600
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 21,
+            "name": "I have 5 \"carrots\"",
+            "match": {
+              "location": "file:\\C:\\Users\\eduar\\Desktop\\CucumberMaths\\features\\stepDefinition\\vegetable.js:11"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 225099
+            }
+          },
+          {
+            "arguments": [
+              {
+                "rows": [
+                  {
+                    "cells": [
+                      "vegetable",
+                      "amount"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "cucumbers",
+                      "3"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "carrots",
+                      "2"
+                    ]
+                  }
+                ]
+              }
+            ],
+            "keyword": "When ",
+            "line": 22,
+            "name": "I make a salad with",
+            "match": {
+              "location": "file:\\C:\\Users\\eduar\\Desktop\\CucumberMaths\\features\\stepDefinition\\vegetable.js:30"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 327300
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 26,
+            "name": "I should have 5 \"cucumbers\"",
+            "match": {
+              "location": "file:\\C:\\Users\\eduar\\Desktop\\CucumberMaths\\features\\stepDefinition\\vegetable.js:53"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 135400
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 27,
+            "name": "I should have 3 \"carrots\"",
+            "match": {
+              "location": "file:\\C:\\Users\\eduar\\Desktop\\CucumberMaths\\features\\stepDefinition\\vegetable.js:53"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 85199
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 28,
+            "name": "I should have 1 salad",
+            "match": {
+              "location": "file:\\C:\\Users\\eduar\\Desktop\\CucumberMaths\\features\\stepDefinition\\vegetable.js:62"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 116499
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      }
+    ],
+    "id": "cucumber-mathematics",
+    "line": 1,
+    "keyword": "Feature",
+    "name": "Cucumber Mathematics",
+    "tags": [],
+    "uri": "features\\vegetable.feature"
+  }
+]
